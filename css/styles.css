@@ -1,0 +1,206 @@
+/*----------- General Page Styling------------*/
+body {}
+
+section {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.container-fluid {
+  padding: 1% 25%;
+}
+
+.colored-section{
+background-color: #ff4c68
+}
+
+#testimonials .colored-section{
+  background-color: #ef8172;
+}
+
+.white-section{
+  background-color: #fff;
+}
+/*----------- Title Section Stylings------------*/
+#title {
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+
+}
+
+.navbar {
+  padding-bottom: 0 0 2.5rem;
+}
+
+.navbar-nav {
+  margin-right: 15%;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  font-family: "Montserrat-Light";
+}
+
+.iphone-image {
+  transform: rotate(30deg);
+  height: auto;
+  width: 25%;
+  margin-left: 10%;
+  position: absolute;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.col-lg-6 {
+  padding-top: 5%;
+  padding-bottom: 15%;
+}
+
+.tindog-logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 4.5rem;
+  padding-bottom: 15%;
+}
+
+.intro {
+  font-family: 'Montserrat-Bold', sans-sans-serif;
+  font-size: 4.2rem;
+}
+
+#features {
+  padding-top: 7%;
+  padding-bottom: 7%;
+  padding-left: 15%;
+  padding-right: 15%;
+
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1.2rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*----------- Testimonial Section Stylings------------*/
+#testimonials {
+  text-align: center;
+
+  padding: 7% 15% 7% 15%;
+  color: #fff
+}
+
+h2 {
+  font-size: 9rem;
+  font-family: 'Montserrat-bold';
+}
+
+h3 {
+  font-family: 'Montserrat-bold', sans-serif;
+}
+
+.testi {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 2rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.testi-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/*----------- Press Section Stylings------------*/
+#press {
+
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*----------- Pricing Section Stylings------------*/
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-title {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 3.3rem;
+}
+
+.price-option {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-image {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+    height: auto;
+    margin-right: 10%;
+  }
+}
+
+/*----------- Call to Action Section------------*/
+#cta {
+  text-align: center;
+
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.cta-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+/*-----------Footer------------*/
+#footer {
+  padding-top: 7%;
+}
+
+.footer-links {
+  margin-left: 25%;
+}
